@@ -19,7 +19,7 @@ header {
 }
 
 .titulo1{
-    background-image: url(immg2.jpg);
+    background-color: #dbdeff;
     padding: 10%;
 }
 
@@ -68,7 +68,7 @@ img{
 
 .historia{
     display:center;
-    width: 100%;
+    width: 70%;
     height: auto;
     margin-left: none;
 }
@@ -99,7 +99,9 @@ section li{
     list-style:square;
 }
 
-
+blockquote{
+    text-align: center;
+}
 /* Barra lateral */
 aside{
     float: right;
