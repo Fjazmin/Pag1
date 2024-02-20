@@ -1,0 +1,166 @@
+/* Pagina */
+body {
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Titulo */
+header {
+    color: #000000;
+    text-align: center;
+}
+
+.titulo{
+    background-image: url(https://i.pinimg.com/564x/a6/ba/f1/a6baf1fc85a5230e05067c6f48cfb4cf.jpg);
+    padding: 10%;
+}
+
+.titulo1{
+    background-image: url(immg2.jpg);
+    padding: 10%;
+}
+
+
+/* barra */
+nav{
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+    background: #ffffff;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    float: left;
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+
+/* Lineas */
+
+hr {
+    background-color: rgb(0, 0, 0);
+    height: 1%;
+}
+
+
+/* Imagenes */
+img{
+    display:center;
+    width: 20%;
+    height: auto;
+    margin-left: none;
+}
+
+.historia{
+    display:center;
+    width: 100%;
+    height: auto;
+    margin-left: none;
+}
+
+figure{
+    font-family: Arial, sans-serif;
+    font-size: large;
+    text-align:center;
+    display:flexbox;
+}
+
+.inicio{
+    display:inline;
+    width: 90%;
+    margin-left: 9%;
+    height: auto;
+}
+
+
+/* secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    list-style:square;
+}
+
+section li{
+    list-style:square;
+}
+
+
+/* Barra lateral */
+aside{
+    float: right;
+    width: 20%;
+    text-align:center;
+    min-height: 800px;
+    max-height: 800px;
+    border: 1px solid #b3b3b3;
+    padding: 2%;
+}
+
+.informacion{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+.img5{
+    min-width: 400%;
+    height: auto;
+    display:flex;
+}
+
+
+/* Formulario */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #b3b3b3;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffebe7;
+}
+
+
+/* Pie de pagina */
+footer {
+    background-color: #eceffa;
+        color: #757575;
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        width: 100%;
+}
